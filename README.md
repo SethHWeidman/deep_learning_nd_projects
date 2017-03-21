@@ -28,3 +28,6 @@ Original YouTube Video: https://www.youtube.com/watch?v=eBbEDRsCmv4
 Instructions: navigate to `tensorboard`. Run `python tensorboard.py`. Then run
 `tensorboard --logdir ./tmp/mnist_demo/1` and go to http://127.0.0.1:6006/ to
 see the TensorBoard dashboard.
+
+Running `python tensorboard_names.py` gives a cleaner board because the key
+variables have been named.
