@@ -31,3 +31,14 @@ see the TensorBoard dashboard.
 
 Running `python tensorboard_names.py` gives a cleaner board because the key
 variables have been named.
+
+Running `python tensorboard_param_search.py` creates the data to look at a board
+that shows different results for different parameter settings.
+
+### Visualizer
+
+https://github.com/llSourcell/Tensorboard_demo
+
+There's a great, clear example in the `tensorboard_visualizer` folder. Navigate
+to the folder, and simply run `python complex.py`. Then, type `tensorboard --logdir=./tmp/mnist_logs` in the Terminal, and navigate to
+http://127.0.0.1:6006/ to see the Tensorboard.
