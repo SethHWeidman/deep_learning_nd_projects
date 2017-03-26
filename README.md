@@ -49,4 +49,12 @@ https://github.com/udacity/deep-learning/tree/master/first-neural-network
 
 Use a neural net, written from scratch using numpy, to predict bike sharing usage over time. This highlights the flexibility of neural nets - they are used here to build a very good model predicting bike sharing over time, capturing the complex, nonlinear relationships between the features and the output nicely.
 
-The `DLND Your first neural network` notebook contains the code for building and the results from running the neural net. 
+The `DLND Your first neural network` notebook contains the code for building and the results from running the neural net.
+
+## 02_first_neural_network
+
+https://github.com/udacity/deep-learning/tree/master/first-neural-network
+
+Use a neural net, written from scratch using numpy, to predict bike sharing usage over time. This highlights the flexibility of neural nets - they are used here to build a very good model predicting bike sharing over time, capturing the complex, nonlinear relationships between the features and the output nicely.
+
+The `DLND Your first neural network` notebook contains the code for building and the results from running the neural net.
