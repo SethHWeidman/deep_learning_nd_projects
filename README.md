@@ -26,7 +26,8 @@ I don't want to spoil what happens when you do this.
 Original YouTube Video: https://www.youtube.com/watch?v=eBbEDRsCmv4
 
 Instructions: navigate to `tensorboard`. Run `python tensorboard.py`. Then run
-`tensorboard --logdir ./tmp/mnist_demo/<number of run>` and go to http://127.0.0.1:6006/ to
+`tensorboard --logdir ./tmp/mnist_demo/<number of run>` and go to
+http://127.0.0.1:6006/ to
 see the TensorBoard dashboard.
 
 Running `python tensorboard_names.py` gives a cleaner board because the key
@@ -40,21 +41,35 @@ that shows different results for different parameter settings.
 https://github.com/llSourcell/Tensorboard_demo
 
 There's a great, clear example in the `tensorboard_visualizer` folder. Navigate
-to the folder, and simply run `python complex.py`. Then, type `tensorboard --logdir=./tmp/mnist_logs` in the Terminal, and navigate to
+to the folder, and simply run `python complex.py`. Then, type `tensorboard
+--logdir=./tmp/mnist_logs` in the Terminal, and navigate to
 http://127.0.0.1:6006/ to see the Tensorboard.
 
 ## 01_first_neural_network
 
 https://github.com/udacity/deep-learning/tree/master/first-neural-network
 
-Use a neural net, written from scratch using numpy, to predict bike sharing usage over time. This highlights the flexibility of neural nets - they are used here to build a very good model predicting bike sharing over time, capturing the complex, nonlinear relationships between the features and the output nicely.
+This project uses a neural net, written from scratch using numpy, to predict
+bike sharing usage over time. This highlights the flexibility of neural nets -
+they are used here to build a very good model predicting bike sharing over time,
+capturing the complex, nonlinear relationships between the features and the
+output nicely.
 
-The `DLND Your first neural network` notebook contains the code for building and the results from running the neural net.
+The `DLND Your first neural network` notebook contains the code for building
+and the results from running the neural net.
 
-## 02_first_neural_network
+## 02_image_classification
 
-https://github.com/udacity/deep-learning/tree/master/first-neural-network
+https://github.com/udacity/deep-learning/tree/master/image-classification
 
-Use a neural net, written from scratch using numpy, to predict bike sharing usage over time. This highlights the flexibility of neural nets - they are used here to build a very good model predicting bike sharing over time, capturing the complex, nonlinear relationships between the features and the output nicely.
+This project uses a convolutional neural net to solve [the CIFAR-10 image
+classification problem](https://www.kaggle.com/c/cifar-10). The goal of the
+exercise was to achieve 50-70% accuracy without doing much parameter tuning,
+but only by modifying the structure of the network. This led to some
+interesting investigations: for example, using 5x5 filters on the images didn't
+seem to work well, even in early layers of the network, so 3x3 filters were
+used, suggesting that the most informative features in this dataset come from
+looking at very small regions of the images.
 
-The `DLND Your first neural network` notebook contains the code for building and the results from running the neural net.
+The `dlnd_image_classification.ipynb` notebook contains the code for building
+and the results from running the neural net.
