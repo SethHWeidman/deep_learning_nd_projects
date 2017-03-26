@@ -56,11 +56,11 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
 # Train for 2000 steps
-for i in range(2000):
+for i in range(200):
     batch = mnist.train.next_batch(100)
 
     # Occasionally report accuracy
-    if i % 200 == 0:
+    if i % 20 == 0:
         [train_accuracy] = sess.run([accuracy], feed_dict={x: batch[0], y: batch[1]})
         print("step %d, training accuracy %g" % (i, train_accuracy))
 
