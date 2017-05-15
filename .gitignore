@@ -1,2 +1,8 @@
 *.local
 *.ipynb_checkpoints*
+
+# Cifar 10 data
+*cifar-10*
+
+# preprocessing batches
+*.p
