@@ -6,3 +6,6 @@
 
 # preprocessing batches
 *.p
+
+# .pyc files
+*.pyc
